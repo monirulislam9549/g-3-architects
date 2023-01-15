@@ -175,3 +175,24 @@ ul li {
     font-weight: 700;
     font-size: 3rem;
 }
+
+.logos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 2.5rem;
+    justify-content: center;
+}
+
+.logo:hover {
+    transition: all 0.3s ease-in;
+    background-color: #FF900E;
+    color: #FFFFFF;
+}
+
+.logo h3,
+p {}
