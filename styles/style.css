@@ -178,7 +178,8 @@ ul li {
 
 .logos {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 7.7rem;
 }
 
 .logo {
@@ -196,3 +197,30 @@ ul li {
 
 .logo h3,
 p {}
+
+.sponsor {
+    text-align: center;
+    margin-top: 10rem;
+    /* padding: 1.5rem; */
+}
+
+.sponsor h3 {
+    font-weight: 700;
+    font-size: 2.6rem;
+}
+
+.sponsors-logos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer {
+    background: #FFF4E7;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 4.5rem;
+}
+
+footer p {
+    text-align: center;
+}
