@@ -195,8 +195,7 @@ ul li {
     color: #FFFFFF;
 }
 
-.logo h3,
-p {}
+
 
 .sponsor {
     text-align: center;
@@ -212,7 +211,100 @@ p {}
 .sponsors-logos {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 30px;
 }
+
+
+/* extra section styles */
+
+.customers {
+    background: linear-gradient(90deg, #880fc4 0%, #1d39f2 100%);
+    min-height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.customers h1 {
+    font-size: 3.75rem;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.customers h5 {
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 80px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 380px;
+    height: 250px;
+    border-radius: 1rem;
+    margin: 7px;
+    padding: 20px 30px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 10px 20px 25px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+    transform: scale(1.4);
+    color: #333;
+    background: #fff;
+    z-index: 5000;
+    transition: all 0.3s ease-in;
+}
+
+.card img {
+    height: 90px;
+    width: 90px;
+    border: 2px solid #FF900E;
+    border-radius: 50%;
+    position: absolute;
+    top: -40px;
+    left: 20px;
+}
+
+.card p {
+    font-size: 1rem;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.card h2 {
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.card h4 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.card i {
+    font-size: 3.75rem;
+    position: absolute;
+    bottom: 20px;
+    right: 25px;
+    color: #b2bec3;
+}
+
 
 footer {
     background: #FFF4E7;
