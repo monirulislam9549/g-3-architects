@@ -8,7 +8,12 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
-/* .container {} */
+.container {
+    margin: 0 auto;
+    width: 100%;
+    height: 80px;
+    max-width: 1250px;
+}
 
 nav {
     display: flex;
@@ -37,4 +42,25 @@ ul li {
     font-size: 1.12rem;
     color: #424242;
     font-weight: 500;
+}
+
+.section {
+    /* background-color: red; */
+    text-align: center;
+    padding: 10rem;
+
+}
+
+.brand-title {
+    font-weight: 700;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+
+}
+
+.brand-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 2rem;
 }
