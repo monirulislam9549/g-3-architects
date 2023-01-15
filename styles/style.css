@@ -19,6 +19,14 @@ main {
     max-width: 1250px;
 }
 
+.all-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    line-height: 26px;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -61,13 +69,6 @@ ul li {
 
 }
 
-.brand-description {
-    color: #727272;
-    font-weight: 400;
-    font-size: 1rem;
-    margin-bottom: 2rem;
-    line-height: 26px;
-}
 
 .btn {
     padding: 1rem;
@@ -126,4 +127,51 @@ ul li {
     font-weight: 700;
     font-size: 45px;
     color: #FF900E;
+}
+
+
+.border-title {
+    border-left: 3px solid #FF900E;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 1.5rem;
+
+}
+
+.feature-image-container {
+    display: flex;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    gap: 9rem;
+}
+
+.image-container img {
+    width: 500px;
+
+}
+
+.feature {
+    margin-bottom: 0.6rem;
+}
+
+.item {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    text-align: justify;
+    border-radius: 0.5rem;
+}
+
+.experience-btn {
+    position: relative;
+    bottom: 1.2rem;
+    right: 1.8rem;
+    padding: 3rem;
+    background: #FF900E;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+
+.experience-btn h3 {
+    font-weight: 700;
+    font-size: 3rem;
 }
